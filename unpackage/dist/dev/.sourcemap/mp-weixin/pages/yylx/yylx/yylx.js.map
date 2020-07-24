@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///G:/smallprogram/qp2020/qp2020/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;;AAEA;AACA,+F;AACAA,UAAU,CAACC,aAAD,CAAV,C","file":"pages/yylx/yylx/yylx.js","sourcesContent":["import 'uni-pages';\n\nimport Vue from 'vue'\nimport Page from './pages/yylx/yylx/yylx.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address",
+    "go-back": "/components/back"
+  }
+}

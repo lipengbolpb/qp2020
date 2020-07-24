@@ -1,0 +1,1 @@
+<view class="content"><go-back style="{{'top:'+(safeAreaTop)+';'}}" vue-id="d9fe9e50-1" bind:__l="__l"></go-back><image style="{{'opacity:'+(loadEnd?1:0)+';'}}" src="{{imgUrl+'/privacy.png'}}" mode="widthFix" data-event-opts="{{[['load',[['imgLoad',['$event']]]]]}}" bindload="__e"></image></view>

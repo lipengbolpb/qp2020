@@ -1,0 +1,134 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "青岛啤酒"
+			}
+		},
+		{
+			"path" : "pages/yylx/yylx"
+		},
+		{
+		    "path" : "pages/index/demo",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/yylx/rule",
+		    "style": {
+		    	"navigationBarTitleText": "活动细则",
+		    	"navigationStyle": "default"
+		    }
+		},
+		{
+		    "path" : "pages/yylx/introduction",
+		    "style": {
+		    	"navigationBarTitleText": "兑奖介绍",
+		    	"navigationStyle": "default"
+		    }
+		},
+		{
+		    "path" : "pages/yylx/hgList",
+		    "style": {
+		    	"navigationBarTitleText": "我的换购",
+		    	"navigationStyle": "default"
+		    }
+		},
+		{
+		    "path" : "pages/yylx/storeList",
+		    "style": {
+		    	"navigationBarTitleText": "附近兑换门店",
+				"navigationStyle": "default"
+		    }
+		},
+		{
+			"path" : "pages/result/getcash",
+			"style" : {}
+		},
+		{
+		    "path" : "pages/result/prize",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/result/getMsg",
+		    "style" : {}
+		},
+		{
+			"path" : "pages/mybag/details",
+			"style" : {}
+		},
+		{
+            "path" : "pages/mybag/mybag",
+            "style" : {}
+        },
+        {
+            "path" : "pages/result/fail",
+            "style" : {}
+        },
+		{
+			"path" : "pages/scan/strcode",
+			"style" : {}
+		},
+		{
+            "path" : "pages/scan/scan",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/scan/openscan",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/rule/rule",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/rule/privacy",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tool/getOpenid/getOpenid",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/rule/webview",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/result/verification",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tool/webview",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "青岛啤酒",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color":"#999999",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon_index_2.png",
+				"selectedIconPath": "static/icon_index_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/scan/openscan",
+				"iconPath": "static/icon_scan_2.png",
+				"selectedIconPath": "static/icon_scan_1.png",
+				"text": "扫一扫"
+			},
+			{
+				"pagePath": "pages/mybag/mybag",
+				"iconPath": "static/icon_person_2.png",
+				"selectedIconPath": "static/icon_person_1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "附近兑换门店",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

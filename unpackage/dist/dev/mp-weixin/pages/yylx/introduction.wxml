@@ -1,0 +1,1 @@
+<view class="content"><view class="introduction_box"><image style="{{'opacity:'+(loadEnd?1:0)+';'}}" src="{{imgUrl+'/yylx/introduction.png?v=1'}}" mode="widthFix" data-event-opts="{{[['load',[['imgLoad',['$event']]]]]}}" bindload="__e"></image><button data-event-opts="{{[['tap',[['toMap',['$event']]]]]}}" bindtap="__e"></button></view></view>

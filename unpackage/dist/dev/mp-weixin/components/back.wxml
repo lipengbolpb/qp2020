@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goback',['$event']]]]]}}" class="goback data-v-9024986c" bindtap="__e"><image class="img data-v-9024986c" src="{{imgUrl+'/icon_back.png'}}" mode="widthFix"></image></view>

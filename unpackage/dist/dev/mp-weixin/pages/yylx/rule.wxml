@@ -1,0 +1,1 @@
+<view class="content"><view class="introduction_box"><image style="{{'opacity:'+(loadEnd?1:0)+';'}}" src="{{imgUrl+'/yylx/rule.png'}}" mode="widthFix" data-event-opts="{{[['load',[['imgLoad',['$event']]]]]}}" bindload="__e"></image></view></view>
